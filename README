@@ -1,0 +1,13 @@
+example how to access read pid value:
+
+{ 
+	"name": "(gdb) Attach",
+	"type": "cppdbg",
+	"request": "attach",
+	"program": "${workspaceFolder}....",
+	"processId": "${command:extension.readPid}",
+	"MIMode": "gdb",
+
+}
+		
+		
