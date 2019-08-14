@@ -1,10 +1,9 @@
 Reads program PID on debug (when attaching)
 add to settings.json:
-```javascript
+
 "ReadPid.AppName" : "your app name",
-```
+
 to launch.json:
-```json
 { 
 	"name": "(gdb) Attach",
 	"type": "cppdbg",
@@ -20,4 +19,3 @@ to launch.json:
 		}
 	]
 }
-```
