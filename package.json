@@ -1,8 +1,8 @@
 {
-	"name": "Read Pid",
+	"name": "ReadPid",
 	"displayName": "Read Pid",
-	"description": "Read Pid",
-	"version": "0.0.1",
+	"description": "uses pidof command and returns pid value by using command:ReadPid",
+	"version": "0.0.3",
 	"publisher": "visoks",
 	"repository": {
 		"type": "git",
