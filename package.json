@@ -2,18 +2,29 @@
 	"name": "ReadPid",
 	"displayName": "Read Pid",
 	"description": "uses pidof command and returns pid value by using command:ReadPid",
-	"version": "0.0.3",
+	"version": "0.0.5",
 	"publisher": "visoks",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/visoks2/VSCode_extension_GetPID"
 	},
 	"engines": {
-		"vscode": "^1.34.0"
+		"vscode": "^1.37.0"
 	},
 	"categories": [
 		"Other"
 	],
+	"contributes": {
+		"configuration": {
+			"title": "ReadPid",
+			"properties": {
+				"ReadPid.AppName": {
+					"type": ["string", "null"],
+					"default": null
+				}
+			}
+		}
+	},
 	"activationEvents": [
 		"onDebug"
 	],
@@ -29,5 +40,10 @@
 		"@types/vscode": "^1.34.0",
 		"tslint": "^5.16.0",
 		"typescript": "^3.5.1"
+	},
+	"__metadata": {
+		"id": "11572a4b-1722-4a01-93ba-0b03979f9f8e",
+		"publisherId": "3e21ecee-56f7-4a9b-8494-69168f528c0c",
+		"publisherDisplayName": "visoks"
 	}
 }
